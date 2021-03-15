@@ -13,7 +13,7 @@ const Routes: React.FC = () => (
     <Route
       path="/facebook"
       component={() => {
-        window.location.href = 'https://www.facebook.com/ochapeirooficial/';
+        window.location.href = '/';
         return null;
       }}
     />
@@ -22,7 +22,7 @@ const Routes: React.FC = () => (
       path="/whatsapp"
       component={() => {
         window.location.href =
-          'https://chat.whatsapp.com/JO5Ej9MCu8SLJw3ST7xCKs';
+          '/';
         return null;
       }}
     />
